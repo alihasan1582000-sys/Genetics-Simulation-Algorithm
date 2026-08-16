@@ -20,7 +20,7 @@ Instead of just printing logs, this script features a custom CLI dashboard with 
 
 The algorithm follows four main biological phases:
 
-1. **Initialization:** Generates a population of 150 random strings (DNA sequences) using the allowed gene pool (letters and spaces).
+1. **Initialization:** Generates a population of 400 random strings (DNA sequences) using the allowed gene pool (letters and spaces).
 2. **Fitness Evaluation:** Scores every string based on how many characters match the target string exactly.
 3. **Selection & Crossover (Recombination):** The highest-scoring strings are placed into a mating pool. Two parents are randomly selected (with higher probability for fitter parents) and their strings are spliced together at a random midpoint to create a child.
 4. **Mutation:** To prevent premature convergence and maintain genetic diversity, each character in a child's sequence has a 1% chance of mutating into a completely random character.
